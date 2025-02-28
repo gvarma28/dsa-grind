@@ -8,7 +8,7 @@ func main() {
 	setZeroes(input)
 }
 
-// TC|SC : O(n*m)|O(1)
+// TC|SC : O(N*M)|O(1)
 // if a '0' appears while traversing the matrix [i][j], we will mark the first element of that row([0][j]) and column([i][0]) as '0'.
 // we need to handle the edge case where the first row or column might be having '0' to begin with, this is done using the firstRow, firstCol flags.
 // after traversing throughout the array, 
