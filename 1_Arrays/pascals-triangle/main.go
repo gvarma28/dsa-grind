@@ -8,6 +8,7 @@ func main() {
 	res := generate(input)
 	fmt.Printf("%v", res)
 }
+
 func generate(numRows int) [][]int {
 	res := [][]int{}
 
